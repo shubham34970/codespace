@@ -38,7 +38,7 @@ def test_mask_email_basic():
 
     result = mask_email(email)
 
-    assert result == "pr***@example.com"
+    assert result == "wrong@example.com"
 
 
 def test_mask_email_invalid():
